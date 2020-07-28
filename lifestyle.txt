@@ -1,26 +1,26 @@
-!alias lifetest embed
+!alias lifestyle embed
 <drac2>
 args,n = &ARGS&,"\n"
 
 if cc_exists("Experience"):
-	None
+    None
 else:
-	Msg = f""" -desc 
-	"
-	Experience counter not setup.\nPlease type `!xp`
-	"
-	"""
-	return Msg
-	
+    Msg = f""" -desc 
+    "
+    Experience counter not setup.\nPlease type `!xp`
+    "
+    """
+    return Msg
+    
 if exists("bags"):
-	None
+    None
 else:
-	Msg = f""" -desc 
-	"
-	Coins not setup.\nPlease type `!coins`
-	"
-	"""
-	return Msg
+    Msg = f""" -desc 
+    "
+    Coins not setup.\nPlease type `!coins`
+    "
+    """
+    return Msg
 
 one = get_cc("RPXP") if cc_exists("RPXP") else 0
 two = get_cc("Jail") if cc_exists("Jail") else 0
@@ -63,6 +63,6 @@ Total: **{money}gp**
 return Msg
 </drac2>
 -title "**<name>'s summary for the week!**"
--footer "Lifestyle | Summary | Shadowprince#8900"
+-footer "Lifestyle | Summary | Peripéteia"
 -thumb <image>
 -color <color>
