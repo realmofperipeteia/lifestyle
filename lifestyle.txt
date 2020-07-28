@@ -1,4 +1,4 @@
-!alias lifestyle embed
+!servalias lifestyle embed
 <drac2>
 args,n = &ARGS&,"\n"
 
